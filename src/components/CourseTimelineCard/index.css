@@ -1,0 +1,49 @@
+/* Write your CSS here */
+
+.course-container {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.course-details {
+  display: flex;
+  justify-content: space-between;
+}
+
+.course-icon {
+  display: flex;
+}
+
+.tags-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.tag {
+  padding: 10px;
+  margin: 5px;
+}
+
+.course-duration {
+  color: #1e293b;
+  height: 20px;
+  margin-right: 10px;
+}
+
+.duration {
+  color: #1e293b;
+  font-size: 15px;
+  margin-top: 0;
+}
+
+.course-name {
+  color: #171f46;
+  font-size: 30px;
+}
+
+.description {
+  color: #1e293b;
+  font-size: 20px;
+}

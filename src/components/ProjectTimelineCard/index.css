@@ -1,0 +1,42 @@
+/* Write your CSS here */
+
+.project-card-container {
+  padding: 20px;
+}
+
+.project-image {
+  height: 150px;
+  background-size: cover;
+}
+
+.duration-container {
+  display: flex;
+}
+
+.duration {
+  color: #1e293b;
+  font-size: 15px;
+  margin-top: 0;
+}
+
+.duration-icon {
+  color: #171f46;
+  height: 20px;
+  margin-right: 10px;
+}
+
+.project-details {
+  display: flex;
+  justify-content: space-between;
+}
+
+.project-name {
+  color: #171f46;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.project-description {
+  color: #1e293b;
+  font-size: 20px;
+}
